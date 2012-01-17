@@ -1,0 +1,6 @@
+N=20000, calcforce 2.919463 [sec]
+N=20000, calcforce_hand 2.779335 [sec]
+N=20000, calcforce_if 2.860081 [sec]
+N=20000, calcforce_hand_if 2.742651 [sec]
+N=20000, calcforce_hand_if_min 3.174721 [sec]
+N=20000, calcforce_hand_if_condop 3.195073 [sec]
