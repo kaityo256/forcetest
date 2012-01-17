@@ -1,0 +1,19 @@
+Force Calculation Test Code
+
+Test codes for 3D-Lennard-Jones potential with cutoff.
+
+force.cc: source code
+makefile: makefile
+result.txt: Result file on MacOS X Intel Xeon 2.93GHz
+
+Usage:
+
+$ make
+$ ./a.out
+
+calcforce:  Calculate force between all particles.
+calcforce_hand: ditto, but put i-particle explicitly on register
+calcforce_if: calcforce with cutoff
+calcforce_hand_if: calcforce_hand with cutoff
+calcforce_hand_if_min: ditto, but conditional jump is removed by using std::min
+calcforce_hand_if_condop: ditto, but conditional jump is removed by conditonal operator
