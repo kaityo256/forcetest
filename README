@@ -1,6 +1,6 @@
 Force Calculation Test Code
 
-Test codes for 3D-Lennard-Jones potential with cutoff.
+Test codes for 3D-Lennard-Jones potential with cutoff
 
 force.cc: source code
 makefile: makefile
